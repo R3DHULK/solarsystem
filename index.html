@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solar System</title>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('https://media.tenor.com/MNVxgsGfaUQAAAAd/in-space-national-space-day.gif');
+            /* Replace with your image file path or URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            /* Set text color to white for better contrast */
+        }
+
+        .container {
+            margin: 50px auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            /* Semi-transparent background for content */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .option-button {
+            flex: 1;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            /* Remove underline for links */
+            display: flex;
+            /* Center link content vertically and horizontally */
+            align-items: center;
+            justify-content: center;
+        }
+
+        .option-button:hover {
+            background-color: #2980b9;
+        }
+
+        @media screen and (max-width: 600px) {
+            .option-button {
+                flex-basis: 100%;
+                /* Make buttons take the full width of the screen */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ready To See Solar System?</h1>
+        <div class="options">
+            <a href="./solarsystem1/index" class="option-button">Solar System</a>
+            <a href="./solarsystem2/index" class="option-button">Earth And Moon</a>
+            <a href="./solarsystem3/index" class="option-button">2D Solar System</a>
+            <a href="./solarsystem4/index" class="option-button">3D Solar System</a>
+        </div>
+    </div>
+</body>
+
+</html>
